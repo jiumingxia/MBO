@@ -13,34 +13,34 @@
 
 效果如下：
 
-![需求展示](需求展示.gif)
+![需求展示](src/需求展示.gif)
 
 ## 二.初步实现
 
 文本背景适配文本长度变长可以通过Unity自带的组件HorizontalLayoutGroup加ContentSizeFitter来实现，涉及组件结构如下
 
-![Alt text](image.png)
+![Alt text](src/image.png)
 
 实现效果如下
 
-![初步效果展示](初步效果展示.gif)
+![初步效果展示](src/初步效果展示.gif)
 
 ```
 需要注意的是ContentSizeFitter组件在对TMP_Text生效时auto size的对象会通过最大尺寸来适配
 
 所以TMP_Text在初始状态字体大小不要超过设置的最大尺寸
 ```
-![Alt text](image-1.png)
+![Alt text](src/image-1.png)
 
 如果设置过大就会这样
 
-![Alt text](image-2.png)
+![Alt text](src/image-2.png)
 
 ## 三.最终实现
 
 为了限制宽度范围编写了一小工具，ContentSizeFitterMax
 
-![Alt text](image-3.png)
+![Alt text](src/image-3.png)
 
 和contentSizeFitter配套使用，继承了UIBehaviour
 ```
@@ -77,8 +77,8 @@ protected override void OnRectTransformDimensionsChange()
 
 ## 四.最终效果
 
-![最终效果](最终效果.gif)
+![最终效果](src/最终效果.gif)
 
 背景图的最小尺寸可以直接使用LayoutElement组件来实现
 
-![Alt text](image-4.png)
+![Alt text](src/image-4.png)

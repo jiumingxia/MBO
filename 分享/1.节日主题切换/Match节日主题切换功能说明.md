@@ -41,7 +41,7 @@
 
 * 控制流程如下
 
-![图片](FestiveAirManager流程.png)
+![图片](src/FestiveAirManager流程.png)
 
 * 主要包含两个集合
 ```
@@ -218,7 +218,7 @@ public struct ColorData
 ```
 效果如下，id代表节日类型枚举对应的值，需要记录下默认值。
 
-![图片](节日颜色组件参数设置.png)
+![图片](src/节日颜色组件参数设置.png)
 
 更换的时候会先设置回默认值，再遍历Datas数据找id和节日索引一致的数据修改属性
 ```
@@ -263,7 +263,7 @@ private MaterialData[] mFontMaterialDatas;
 ```
 效果如下，id代表节日类型枚举对应的值，需要记录下默认值。
 
-![图片](节日材质组件参数设置.png)
+![图片](src/节日材质组件参数设置.png)
 
 更换的时候会先设置回默认值，再遍历Datas数据找id和节日索引一致的数据修改属性
 ```
@@ -297,11 +297,11 @@ public void UpdateFestiveAir(FestiveAirType curType)
 
 图片需要新建文件夹存放，由于可能存在动态加载的图片所以文件夹名称需要带有m_*_dl，如下图。
 
-![图片](节日图片资源设置.png)
+![图片](src/节日图片资源设置.png)
 
 预制体同理，配置如图。
 
-![图片](节日预制体资源设置.png)
+![图片](src/节日预制体资源设置.png)
 
 ### 2.组件使用
 
@@ -309,7 +309,7 @@ public void UpdateFestiveAir(FestiveAirType curType)
 
 在需要显示gameObject的地方新建对应游戏物体，并添加该组件，设置节日id即可。
 
-![图片](基础显示隐藏组件使用.png)
+![图片](src/基础显示隐藏组件使用.png)
 
 ### 2.2 FestiveAirLoadPrefabComponent
 
@@ -319,21 +319,21 @@ public void UpdateFestiveAir(FestiveAirType curType)
 
 eg:
 
-![Alt text](image.png)
+![Alt text](src/image.png)
 
 需要替换为
 
-![Alt text](image-1.png)
+![Alt text](src/image-1.png)
 
 ##
 
 1. 这种情况下可以在父节点上绑定FestiveAirLoadPrefabComponent组件，并把默认名称加到参数当中，加载方式是否同步可以根据需要选择，由于Loading界面在游戏开始直接显示所以选择的同步加载。
 
-![Alt text](image-2.png)
+![Alt text](src/image-2.png)
 
 2. 之后需要把节日替换物体的名称修改为默认名称+节日名称（eg: LaunchLoadingNodeHalloween），将两个物体拖拽到对应的预制体位置
 
-![Alt text](image-3.png)![Alt text](image-4.png)
+![Alt text](src/image-3.png)![Alt text](src/image-4.png)
 
 ```
 * 需要注意的是替换物体中不涉及代码引用和需要代码控制的节点
@@ -343,20 +343,20 @@ eg:
 
 这部分只是修改显示图片，不需要在意代码是否调用问题，只要把对应要替换的资源名称修改为默认图片名称加"_节日名称"即可（eg: ）
 
-![Alt text](image-5.png)
+![Alt text](src/image-5.png)
 
 ### 2.4 FestiveAirRenderColorChangeComponent
 
 在需要替换模型或者3DSprite物品的颜色时可以使用该组件，主要就是在Renderer相关组件下添加FestiveAirRenderColorChangeComponent，一定要先设置默认颜色即id=0的颜色。之后再添加对应节日id要改变的颜色。
 
-![Alt text](image-6.png)![Alt text](image-7.png)
+![Alt text](src/image-6.png)![Alt text](src/image-7.png)
 
 ### 2.5 FestiveTMPMatChangeComponent
 
 这个和颜色修改同理，用来修改TMP_Text组件的字体材质，需要先设置默认材质，再根据id设置节日需要替换的字体材质
 
-![Alt text](image-8.png)
+![Alt text](src/image-8.png)
 
 ## 三.最终效果
 
-![图](最终效果.gif)
+![图](src/最终效果.gif)

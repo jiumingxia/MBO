@@ -1,0 +1,1225 @@
+fileFormatVersion: 2
+guid: bfe977127673044b1918961a36d81846
+TextureImporter:
+  internalIDToNameTable: []
+  externalObjects: {}
+  serializedVersion: 12
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 1
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMasterTextureLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 0
+    wrapV: 0
+    wrapW: 0
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 0
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Server
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: iPhone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: icon_packer_0
+      rect:
+        serializedVersion: 2
+        x: 2
+        y: 1713
+        width: 449
+        height: 322
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5ae0b1cd0349a43f7a4901dcce70a137
+      internalID: -1409988962
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: icon_packer_1
+      rect:
+        serializedVersion: 2
+        x: 453
+        y: 1726
+        width: 431
+        height: 309
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 00de40d2beb9f4d6381059e6bcafdb11
+      internalID: 1058644535
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: icon_packer_2
+      rect:
+        serializedVersion: 2
+        x: 888
+        y: 1724
+        width: 408
+        height: 311
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: eba9b9f7d1f5a4e6596ba9c39b2bcb3b
+      internalID: -1627458341
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: icon_packer_3
+      rect:
+        serializedVersion: 2
+        x: 1300
+        y: 1788
+        width: 359
+        height: 247
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d924f4df84d7f480a83e9d2877db7460
+      internalID: 1989447164
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: icon_packer_4
+      rect:
+        serializedVersion: 2
+        x: 1663
+        y: 1721
+        width: 329
+        height: 314
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0eb67e81e94374171b5d3468d65db3f0
+      internalID: -919360122
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: icon_packer_5
+      rect:
+        serializedVersion: 2
+        x: 2
+        y: 1456
+        width: 378
+        height: 253
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1311809f50b7b4cae9ac2b504cf00d83
+      internalID: -1483412086
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: icon_packer_6
+      rect:
+        serializedVersion: 2
+        x: 382
+        y: 1636
+        width: 59
+        height: 75
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e1408e930e79845349c2d8cd1232806c
+      internalID: -1852783533
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: icon_packer_7
+      rect:
+        serializedVersion: 2
+        x: 453
+        y: 1398
+        width: 379
+        height: 324
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: da71cc44c9e7546f7b265dc1c58a7dee
+      internalID: 984053234
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: icon_packer_8
+      rect:
+        serializedVersion: 2
+        x: 834
+        y: 1681
+        width: 43
+        height: 43
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9af2e2ec7fcea462b8520f86ea315ef9
+      internalID: -887589869
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: icon_packer_9
+      rect:
+        serializedVersion: 2
+        x: 879
+        y: 1382
+        width: 348
+        height: 338
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4f04bcd05fb8f4e278a7631c8e1f376b
+      internalID: 1135245178
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: icon_packer_10
+      rect:
+        serializedVersion: 2
+        x: 1300
+        y: 1496
+        width: 356
+        height: 288
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b8f7ffd08f8c44e23ac237ac7a1a75e6
+      internalID: -1044281937
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: icon_packer_11
+      rect:
+        serializedVersion: 2
+        x: 1660
+        y: 1416
+        width: 329
+        height: 301
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b299c02dd3d9648f09494cea8245706a
+      internalID: -1027147878
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: icon_packer_12
+      rect:
+        serializedVersion: 2
+        x: 2
+        y: 1125
+        width: 376
+        height: 327
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fffbeba51c9da4130aeb421a63c1babe
+      internalID: 916084884
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: icon_packer_13
+      rect:
+        serializedVersion: 2
+        x: 382
+        y: 1083
+        width: 321
+        height: 311
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8e7025530c173446b98ee2615976eda9
+      internalID: 260841538
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: icon_packer_14
+      rect:
+        serializedVersion: 2
+        x: 707
+        y: 1092
+        width: 315
+        height: 286
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ecb30822e3d7c437eb93ecef684bd3b5
+      internalID: 476017048
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: icon_packer_15
+      rect:
+        serializedVersion: 2
+        x: 1026
+        y: 1123
+        width: 198
+        height: 255
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c5b8942303f804c448244369bee641a3
+      internalID: -1708455773
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: icon_packer_16
+      rect:
+        serializedVersion: 2
+        x: 1231
+        y: 1156
+        width: 339
+        height: 336
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8f463e2babc344a1b855a825eaefdcb8
+      internalID: -1864933805
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: icon_packer_17
+      rect:
+        serializedVersion: 2
+        x: 1574
+        y: 1101
+        width: 323
+        height: 311
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e6982169b342e45378a43b960a1fd199
+      internalID: -2116846122
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: icon_packer_18
+      rect:
+        serializedVersion: 2
+        x: 1899
+        y: 1250
+        width: 89
+        height: 164
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f5c58a18ff62d47b99e8ad7adc4bd24b
+      internalID: -591285588
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: icon_packer_19
+      rect:
+        serializedVersion: 2
+        x: 2
+        y: 817
+        width: 317
+        height: 304
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2a20c98a1a0454e6cb0be2c166fd9938
+      internalID: -1592376735
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: icon_packer_20
+      rect:
+        serializedVersion: 2
+        x: 323
+        y: 782
+        width: 308
+        height: 297
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bb937b96d4f17416ba24c2e59f38f47b
+      internalID: 425745236
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: icon_packer_21
+      rect:
+        serializedVersion: 2
+        x: 707
+        y: 830
+        width: 313
+        height: 258
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1de5db53b8ab14b3f81afbbbb4f60936
+      internalID: 2005717014
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: icon_packer_22
+      rect:
+        serializedVersion: 2
+        x: 1026
+        y: 864
+        width: 198
+        height: 255
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5f4c0c3cf8c70478181f678fe310c0fa
+      internalID: 935932933
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: icon_packer_23
+      rect:
+        serializedVersion: 2
+        x: 1228
+        y: 884
+        width: 315
+        height: 268
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 680a7976939474a27ab751dd37dc40f9
+      internalID: 966026703
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: icon_packer_24
+      rect:
+        serializedVersion: 2
+        x: 1547
+        y: 881
+        width: 305
+        height: 216
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 39a7c02576e114db09932457d7fb016f
+      internalID: -1220006979
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: icon_packer_25
+      rect:
+        serializedVersion: 2
+        x: 2
+        y: 517
+        width: 308
+        height: 296
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a2d2dcf95bc6542ba8dddec23685fc59
+      internalID: -85908786
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: icon_packer_26
+      rect:
+        serializedVersion: 2
+        x: 314
+        y: 531
+        width: 302
+        height: 247
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ba940aba1c30740878c042e703a40dd4
+      internalID: 734749933
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: icon_packer_27
+      rect:
+        serializedVersion: 2
+        x: 635
+        y: 565
+        width: 302
+        height: 261
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a8aca48e7cadd4ee39099257604e5e58
+      internalID: -1569743124
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: icon_packer_28
+      rect:
+        serializedVersion: 2
+        x: 1024
+        y: 669
+        width: 196
+        height: 191
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 36be2e80153c9478b8b1a8910d724403
+      internalID: 2046703361
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: icon_packer_29
+      rect:
+        serializedVersion: 2
+        x: 1228
+        y: 619
+        width: 302
+        height: 261
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dc69de83b82734b9eb874a62d5d8f460
+      internalID: 940285993
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: icon_packer_30
+      rect:
+        serializedVersion: 2
+        x: 1534
+        y: 650
+        width: 189
+        height: 227
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b19128f90aeb342fa9762e2538b9a447
+      internalID: 1219076694
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: icon_packer_31
+      rect:
+        serializedVersion: 2
+        x: 1742
+        y: 653
+        width: 235
+        height: 224
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c99ea032ca4b246c69fa7940c26b0bf3
+      internalID: 631690226
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: icon_packer_32
+      rect:
+        serializedVersion: 2
+        x: 2
+        y: 267
+        width: 252
+        height: 246
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0a67c7bdd29234857835c0b0c7799878
+      internalID: -1264539990
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: icon_packer_33
+      rect:
+        serializedVersion: 2
+        x: 314
+        y: 238
+        width: 297
+        height: 289
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 602e0c662139f43e7b21670662fa83ed
+      internalID: 856599289
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: icon_packer_34
+      rect:
+        serializedVersion: 2
+        x: 620
+        y: 265
+        width: 297
+        height: 296
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9cc12c14ee80b46c2ba7aee3ea35ba02
+      internalID: 2118601191
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: icon_packer_35
+      rect:
+        serializedVersion: 2
+        x: 941
+        y: 489
+        width: 281
+        height: 176
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f1ea61ad49bcb452daccac5103d8df9b
+      internalID: 1228076622
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: icon_packer_36
+      rect:
+        serializedVersion: 2
+        x: 1469
+        y: 328
+        width: 269
+        height: 287
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 56c37496a9ea448b493bcdaa809e22b2
+      internalID: -553887897
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: icon_packer_37
+      rect:
+        serializedVersion: 2
+        x: 1742
+        y: 436
+        width: 234
+        height: 213
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 200ee3ea0b41447318f2e7c40c411887
+      internalID: -1474798713
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: icon_packer_38
+      rect:
+        serializedVersion: 2
+        x: 921
+        y: 269
+        width: 270
+        height: 216
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 478a2a95b5fa94172a873ddaa774fb58
+      internalID: 489415591
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: icon_packer_39
+      rect:
+        serializedVersion: 2
+        x: 1195
+        y: 269
+        width: 270
+        height: 216
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d7f253fd8fc8a485b83bbda2db3e8109
+      internalID: 995887827
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: icon_packer_40
+      rect:
+        serializedVersion: 2
+        x: 1742
+        y: 225
+        width: 226
+        height: 207
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e0e55a544ca054c99b5103fcb254a693
+      internalID: 283701116
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: icon_packer_41
+      rect:
+        serializedVersion: 2
+        x: 2
+        y: 2
+        width: 252
+        height: 259
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d6a28c1f0ee494aa1a1f2da0ee8e5a6d
+      internalID: 1744990602
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: icon_packer_42
+      rect:
+        serializedVersion: 2
+        x: 258
+        y: 3
+        width: 202
+        height: 231
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dbd0e3a86719d421e82f38fdc9e4d394
+      internalID: 1447558101
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: icon_packer_43
+      rect:
+        serializedVersion: 2
+        x: 464
+        y: 3
+        width: 194
+        height: 231
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d9638d4e8be534582825b71b12854d7d
+      internalID: -1643612894
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: icon_packer_44
+      rect:
+        serializedVersion: 2
+        x: 662
+        y: 7
+        width: 230
+        height: 254
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e67f441c88aa742a8b19154205adf048
+      internalID: -1593038218
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: icon_packer_45
+      rect:
+        serializedVersion: 2
+        x: 896
+        y: 16
+        width: 185
+        height: 245
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 411c70084f1134b05bcbbde5a1b75f4a
+      internalID: 1300033627
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: icon_packer_46
+      rect:
+        serializedVersion: 2
+        x: 1085
+        y: 25
+        width: 190
+        height: 240
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f088f29e826304bc6a7f1ddfb3b9e906
+      internalID: 2017075470
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: icon_packer_47
+      rect:
+        serializedVersion: 2
+        x: 1279
+        y: 30
+        width: 287
+        height: 235
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5451c21758ce34ca5816bd2971601450
+      internalID: 1792189162
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: icon_packer_48
+      rect:
+        serializedVersion: 2
+        x: 1570
+        y: 9
+        width: 225
+        height: 212
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 993ada95145544cd485c75c363103183
+      internalID: -107819066
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: f9b7e8e79a3a545e399f96ad785797af
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    nameFileIdTable:
+      icon_packer_47: 1792189162
+      icon_packer_31: 631690226
+      icon_packer_7: 984053234
+      icon_packer_8: -887589869
+      icon_packer_22: 935932933
+      icon_packer_39: 995887827
+      icon_packer_41: 1744990602
+      icon_packer_18: -591285588
+      icon_packer_44: -1593038218
+      icon_packer_16: -1864933805
+      icon_packer_17: -2116846122
+      icon_packer_25: -85908786
+      icon_packer_30: 1219076694
+      icon_packer_29: 940285993
+      icon_packer_15: -1708455773
+      icon_packer_3: 1989447164
+      icon_packer_36: -553887897
+      icon_packer_27: -1569743124
+      icon_packer_37: -1474798713
+      icon_packer_20: 425745236
+      icon_packer_48: -107819066
+      icon_packer_0: -1409988962
+      icon_packer_10: -1044281937
+      icon_packer_21: 2005717014
+      icon_packer_12: 916084884
+      icon_packer_26: 734749933
+      icon_packer_23: 966026703
+      icon_packer_14: 476017048
+      icon_packer_40: 283701116
+      icon_packer_32: -1264539990
+      icon_packer_2: -1627458341
+      icon_packer_34: 2118601191
+      icon_packer_35: 1228076622
+      icon_packer_45: 1300033627
+      icon_packer_11: -1027147878
+      icon_packer_38: 489415591
+      icon_packer_33: 856599289
+      icon_packer_42: 1447558101
+      icon_packer_9: 1135245178
+      icon_packer_5: -1483412086
+      icon_packer_1: 1058644535
+      icon_packer_13: 260841538
+      icon_packer_43: -1643612894
+      icon_packer_24: -1220006979
+      icon_packer_4: -919360122
+      icon_packer_46: 2017075470
+      icon_packer_19: -1592376735
+      icon_packer_28: 2046703361
+      icon_packer_6: -1852783533
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

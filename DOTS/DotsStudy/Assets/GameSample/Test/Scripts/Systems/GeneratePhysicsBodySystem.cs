@@ -36,6 +36,11 @@ public partial struct GeneratePhysicsBodySystem : ISystem
             var position = new float3(x, y, z) * generator.space;
             var transform = SystemAPI.GetComponentRW<LocalTransform>(cube);
             transform.ValueRW.Position = position;
+            state.EntityManager.AddComponentData(cube, new ItemSelectComponent(){groupId = 1});
+            if (state.EntityManager.IsComponentEnabled<ItemSelectComponent>(cube))
+            {
+                state.EntityManager.SetComponentEnabled<ItemSelectComponent>(cube, false);
+            }
             count++;
         }
 
@@ -55,6 +60,11 @@ public partial struct GeneratePhysicsBodySystem : ISystem
             var position = new float3(x, y, z) * generator.space;
             var transform = SystemAPI.GetComponentRW<LocalTransform>(cube);
             transform.ValueRW.Position = position;
+            state.EntityManager.AddComponentData(cube, new ItemSelectComponent(){groupId = 2});
+            if (state.EntityManager.IsComponentEnabled<ItemSelectComponent>(cube))
+            {
+                state.EntityManager.SetComponentEnabled<ItemSelectComponent>(cube, false);
+            }
             count++;
         }
 
@@ -74,6 +84,11 @@ public partial struct GeneratePhysicsBodySystem : ISystem
             var position = new float3(x, y, z) * generator.space;
             var transform = SystemAPI.GetComponentRW<LocalTransform>(cube);
             transform.ValueRW.Position = position;
+            state.EntityManager.AddComponentData(cube, new ItemSelectComponent(){groupId = 3});
+            if (state.EntityManager.IsComponentEnabled<ItemSelectComponent>(cube))
+            {
+                state.EntityManager.SetComponentEnabled<ItemSelectComponent>(cube, false);
+            }
             count++;
         }
 
@@ -94,6 +109,11 @@ public partial struct GeneratePhysicsBodySystem : ISystem
             var position = new float3(x, y, z) * generator.space;
             var transform = SystemAPI.GetComponentRW<LocalTransform>(cube);
             transform.ValueRW.Position = position;
+            state.EntityManager.AddComponentData(cube, new ItemSelectComponent(){groupId = 4});
+            if (state.EntityManager.IsComponentEnabled<ItemSelectComponent>(cube))
+            {
+                state.EntityManager.SetComponentEnabled<ItemSelectComponent>(cube, false);
+            }
             count++;
         }
 
@@ -113,6 +133,11 @@ public partial struct GeneratePhysicsBodySystem : ISystem
             var position = new float3(x, y, z) * generator.space;
             var transform = SystemAPI.GetComponentRW<LocalTransform>(cube);
             transform.ValueRW.Position = position;
+            state.EntityManager.AddComponentData(cube, new ItemSelectComponent(){groupId = 5});
+            if (state.EntityManager.IsComponentEnabled<ItemSelectComponent>(cube))
+            {
+                state.EntityManager.SetComponentEnabled<ItemSelectComponent>(cube, false);
+            }
             count++;
         }
 
@@ -132,6 +157,11 @@ public partial struct GeneratePhysicsBodySystem : ISystem
             var position = new float3(x, y, z) * generator.space;
             var transform = SystemAPI.GetComponentRW<LocalTransform>(cube);
             transform.ValueRW.Position = position;
+            state.EntityManager.AddComponentData(cube, new ItemSelectComponent(){groupId = 6});
+            if (state.EntityManager.IsComponentEnabled<ItemSelectComponent>(cube))
+            {
+                state.EntityManager.SetComponentEnabled<ItemSelectComponent>(cube, false);
+            }
             count++;
         }
 

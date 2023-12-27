@@ -12,7 +12,7 @@ public class PlayerManager : MonoBehaviour
     public InputAction Input;
     public Camera Camera;
 
-    private Entity Entity;
+    private Entity Entity; 
     private World World;
 
     private void OnEnable()

@@ -57,12 +57,21 @@
     <Analyzer Include="/Users/xiajiuming/work/MBO/DOTS/DotsStudy/Library/PackageCache/com.unity.entities@1.0.16/Unity.Entities/SourceGenerators/Unity.Entities.SourceGen.JobEntityGenerator.dll" />
   </ItemGroup>
   <ItemGroup>
+     <Compile Include="Assets/GameSample/Test/Scripts/Systems/SelectItemMoveSystem.cs" />
+     <Compile Include="Assets/GameSample/Test/Scripts/Systems/SelectItemSystem.cs" />
      <Compile Include="Assets/GameSample/Test/Scripts/Systems/GeneratePhysicsBodySystem.cs" />
      <Compile Include="Assets/Common/Scripts/SimpleCameraController.cs" />
+     <Compile Include="Assets/GameSample/Test/Scripts/Systems/DestoryItemSystem.cs" />
      <Compile Include="Assets/GameSample/Test/Scripts/PlayerManager.cs" />
+     <Compile Include="Assets/GameSample/Test/Scripts/Components/ItemSelectComponent.cs" />
+     <Compile Include="Assets/GameSample/Test/Scripts/Authoring/FloorEntityAuthoring.cs" />
+     <Compile Include="Assets/GameSample/Test/Scripts/Components/FloorTagComponent.cs" />
+     <Compile Include="Assets/GameSample/Test/Scripts/Components/GameCtrlSingletonComponent.cs" />
      <Compile Include="Assets/Common/Materials/WorkflowModeFloatOverrideOverrideGenerated.cs" />
+     <Compile Include="Assets/GameSample/Test/Scripts/Components/SharedComponent.cs" />
      <Compile Include="Assets/GameSample/Test/Scripts/Authoring/MultiPhysicsBodyGeneratorAuthoring.cs" />
      <Compile Include="Assets/GameSample/Test/Scripts/Systems/InputSystem.cs" />
+     <Compile Include="Assets/GameSample/Test/Scripts/Authoring/SelectPosSingletonAuthoring.cs" />
      <Folder Include="Assets" />
      <Folder Include="Assets/Project/AddressableRes/Effect/m_EffectPrefabs_dl/ThanksGiving" />
      <Folder Include="Assets/GameSample/Test/Scripts/Systems" />
@@ -103,6 +112,7 @@
      <Folder Include="Assets/Common" />
      <Folder Include="Assets/Project/AddressableRes/Effect/m_EffectRes/Textures" />
      <None Include="Assets/TextMesh Pro/Shaders/TMP_SDF-Surface-Mobile.shader" />
+     <Folder Include="Assets/GameSample/Test/Scripts/Components" />
      <None Include="Assets/ScriptTemplates/84-DOTS__SystemGroup-NewSystemGroup.cs.txt" />
      <Folder Include="Assets/Startup" />
      <Folder Include="Assets/TextMesh Pro" />

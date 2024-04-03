@@ -8,6 +8,8 @@ using UnityEngine;
 [BurstCompile]
 public partial struct DestoryItemSystem : ISystem
 {
+    
+    
     [BurstCompile]
     public void OnUpdate(ref SystemState state)
     {

@@ -9,6 +9,7 @@
 - [五. 创建选中物体移动控制系统](#五-创建选中物体移动控制系统)
 - [六. 创建选中且集满3个的物体销毁的系统](#六-创建选中且集满3个的物体销毁的系统)
 - [七. 最终效果](#七-最终效果)
+- [八. 当前工程链接地址](#八-当前工程链接地址)
 
 
 ## 一. 创建地板标签组件区分射线点击的物品
@@ -484,3 +485,7 @@ public partial struct DestoryItemSystem : ISystem
 ## 七. 最终效果
 
 ![Alt text](<录屏2023-12-27 18.35.29.gif>)
+
+## 八. 当前工程链接地址
+
+   [https://github.com/jiumingxia/MBO/tree/main/DOTS](https://github.com/jiumingxia/MBO/tree/main/DOTS)
